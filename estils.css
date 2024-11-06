@@ -1,0 +1,67 @@
+/* TASK 4 CSS */
+body {
+  background-color: grey;
+}
+
+div#imatges {
+  background-color: blueviolet;
+  padding: 5px;
+  margin:5px;
+  height: 500px;
+
+  position: relative;
+}
+
+p#titol {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 5px;
+
+  position: fixed;
+
+  /* CSS AL DAVALL */
+  padding-left: 9%;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+
+  position: relative;
+
+  /* CSS AL DAVALL */
+  /* left: 470px; */
+  left: 29%;
+  top: 170px;
+  z-index: 1;
+  display: inline;
+}
+
+img#model {
+  position: absolute;
+
+  /* CSS AL DAVALL */
+  right: 73%;
+  top: 5%;
+}
+
+img#scissors {
+  position: absolute;
+
+  /* CSS AL DAVALL */
+  top: 60%;
+  right: 1%;
+}
+
+.description {
+  font-size: 2em;
+  color: yellowgreen;
+
+  position: relative;
+
+  /* CSS AL DAVALL */
+  margin-left: 1%;
+  margin-top: -3%;
+}
